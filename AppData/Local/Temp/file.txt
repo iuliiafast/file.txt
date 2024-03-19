@@ -1,0 +1,62 @@
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  952G   63G  889G   7% /
+Script executed from: $(pwd)
+    1  cd ~/.ssh
+    2  ls -al
+    3  cat id_rsa.pub
+    4  git config --global user.name iuliia_fast -l 
+    5   git config --global user.name iuliia_fast
+    6  git config --global user.email iuliia914@gmail.com
+    7  git config --global -l
+    8  ssh -T git@github.com
+    9  cd
+   10  mk dir /IT-CH
+   11  mk dir -p /IT_ICH/GIT/Work
+   12  ls -al
+   13  cd /Documents/290-124-wdm
+   14  mk dir/Documents/290124-wdm
+   15  cd
+   16  mkdir -p IT_CH/GIT/Work
+   17  cd IT_CH/GIT/Work
+   18  git@github.com:iuliiafast/290124-wdm.git
+   19  git clone git@github.com:iuliiafast/290124-wdm.git
+   20  ls -al
+   21  cd 290124-wdm
+   22  ls -al
+   23  nano song-txt
+   24  ls -al
+   25  git status
+   26  song.txt
+   27  git add
+   28  git add song.txt
+   29  git commit -m "Add new file song.txt"
+   30  git add song.txt
+   31  git status
+   32  git log
+   33  git push
+   34  ls -al
+   35  git commit -m "Add new file song.txt"
+   36  git add song.txt
+   37  git add song-txt
+   38  git commit -m "Add new file song-txt"
+   39  git status
+   40  git log
+   41  git push
+   42  ls -al
+   43  df -h | head -n 3 > /tmp/file.txt
+   44  chmod g+wx /tmp/file.txt
+   45  chmod o-rwx /tmp/file-txt
+   46  ls -al
+   47  cd
+   48  df -h | head -n 3 > /tmp/file.txt
+   49  $ chmod g+wx /tmp/file.txt
+   50  nano /tmp/file.txt
+   51  df -h | head -n 3 > /tmp/file.txt
+   52  chmod g+wx /tmp/file.txt
+   53  chmod o-rwx /tmp/file.txt
+   54  touch mafirstbashscript.sh
+   55  chmod +x  mafirstbashscript.sh
+   56  USER=$(whoami)
+   57  echo "Script executed from: \$(pwd)" >> myfirstbashscript.sh
+   58  cat myfirstbashscript.sh >> /tmp/file.txt
+   59  history >> /tmp/file.txt
